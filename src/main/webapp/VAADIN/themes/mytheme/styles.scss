@@ -1,0 +1,93 @@
+@import "addons.scss";
+@import "mytheme.scss";
+
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in mytheme.scss */
+.mytheme {
+  @include addons;
+
+  // Include mytheme theme styles in your theme
+  @include mytheme;
+
+.title {
+	font-family: "sans-serif";
+	font-size: 70px;
+	line-height: 70px;
+	font-weight: bold;
+	text-shadow: 0px 0px 0 rgb(216, -15, -15), 1px 1px 0 rgb(201, -30, -30), 2px 2px 0 rgb(187, -44, -44), 3px 3px 0 rgb(172, -59, -59), 4px 4px 0 rgb(158, -73, -73), 5px 5px 0 rgb(143, -88, -88), 6px 6px 0 rgb(129, -102, -102), 7px 7px 6px rgba(0, 0, 0, 0.6), 7px 7px 1px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(0, 0, 0, 0.2);
+	padding: 5px;
+	padding-left: 5px;
+	background-image: url("images/FantasyStock.png");
+	text-align: center;
+	border: outset;
+	border-color: #FFCC00;
+}
+
+.titleComment {
+	padding: 5px;
+	padding-left: 5px;
+	width: 160px;
+	height: 100px;
+	background-image: url("images/redDragon.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	border: outset;
+	border-color: #FFCC00;
+}
+
+
+.statusBar {
+	padding-right: 10px;
+	background-image: url("images/menu.gif");
+	text-align: right;
+	margin: auto;
+}
+
+.subWindowStyle {
+	background-color: rgb(230,230,230);
+}
+
+.gridBorder {
+	background-color: rgb(230,230,230);
+}
+
+.contentStyle {
+	background-color: rgb(230,230,230);
+}
+
+.totalStyle {
+	background-color: rgb(0, 255, 0);
+	font-size: 25px;
+	text-align: center;
+	line-height: normal;
+}
+
+.posPageTitle {
+	font-size: 40px;
+	text-align: center;
+	line-height: normal;
+}
+
+.menuBarStyle {
+	background-color: rgb(0, 255, 0);
+}
+
+.dragonNameStyle {
+	font-weight: bold;
+}
+
+.salesTaxStyle {
+	padding-left:  8px;
+}
+
+.salesTaxStyle {
+	padding-left:  8px;
+}
+
+
+.salesTaxTotalStyle {
+	padding-left:  6px;
+}
+
+}

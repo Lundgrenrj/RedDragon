@@ -1,0 +1,16 @@
+target/*
+bin/*
+.settings/*
+src/main/webapp/VAADIN/widgetsets/*
+src/main/webapp/VAADIN/gwt-unitCache/*
+src/main/webapp/VAADIN/widgetsets*
+src/main/webapp/VAADIN/gwt-unitCache*
+
+/.project
+/.classpath
+/.settings
+*.class
+*.jar
+*.war
+*.ear
+/target
